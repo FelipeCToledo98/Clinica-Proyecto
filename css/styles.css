@@ -10204,6 +10204,14 @@ header.masthead {
     background-attachment: scroll;
     background-size: cover;
 }
+header.masthead2{
+
+    background: url("../assets/img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
 
 header.masthead h1 {
     font-size: 2.25rem;
