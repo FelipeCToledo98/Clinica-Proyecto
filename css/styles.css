@@ -1663,12 +1663,12 @@ pre code {
 }
 
 .table-hover .table-primary:hover {
-    background-color: #fbc0b0;
+    background-color: #212529;
 }
 
 .table-hover .table-primary:hover>td,
 .table-hover .table-primary:hover>th {
-    background-color: #fbc0b0;
+    background-color: #212529;
 }
 
 .table-secondary,
@@ -2493,8 +2493,8 @@ fieldset:disabled a.btn {
 .btn-primary:focus,
 .btn-primary.focus {
     color: #fff;
-    background-color: #f24516;
-    border-color: #ee3e0d;
+    background-color: blue;
+    border-color:blue;
     box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
 }
 
@@ -4279,7 +4279,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #f4623a;
+    background-color:blue;
 }
 
 .nav-fill>.nav-link,
@@ -5124,7 +5124,7 @@ a.badge:focus {
 a.badge-primary:hover,
 a.badge-primary:focus {
     color: #fff;
-    background-color: #ee3e0d;
+    background-color: blue;
 }
 
 a.badge-primary:focus,
@@ -10120,8 +10120,10 @@ hr.light {
 
 .page-section {
     padding: 8rem 0;
+}.page-sections {
+    padding: 8rem 0;
+    color:white;
 }
-
 .page-sectionc {
     padding: 8rem 0;
     background: url("../assets/img/bg.jpg");
@@ -10149,11 +10151,11 @@ hr.light {
 
 #mainNav .navbar-nav .nav-item .nav-link:hover,
 #mainNav .navbar-nav .nav-item .nav-link:active {
-    color: #f4623a;
+    color: blue;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-    color: #f4623a !important;
+    color: blue !important;
 }
 
 @media (min-width: 992px) {
@@ -10185,13 +10187,13 @@ hr.light {
         color: #212529;
     }
     #mainNav.navbar-scrolled .navbar-brand:hover {
-        color: #f4623a;
+        color: #212529;
     }
     #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
         color: #212529;
     }
     #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-        color: #f4623a;
+        color: blue;
     }
 }
 
@@ -10207,6 +10209,14 @@ header.masthead {
 header.masthead2{
 
     background: url("../assets/img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+header.masthead3{
+
+    background: url("../assets/img/Land.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
